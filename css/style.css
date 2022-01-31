@@ -1,0 +1,50 @@
+body{
+	font-family: Arial, sans-serif;
+}
+body, a{
+	color: #fff;
+}
+
+div.bg_c1{
+	background: rgb(159,0,33);
+	background: radial-gradient(circle, rgba(159,0,33,1) 0%, rgba(255,93,0,1) 100%);
+}
+
+div.bg_c2{
+	color: #C1B8FF;
+	background: rgb(7,0,6);
+	background: linear-gradient(90deg, rgba(7,0,6,1) 0%, rgba(19,0,148,1) 100%);
+}
+div.bg_c2 a{
+	color: #C1B8FF;
+}
+div.bg_c2 a:hover{
+	color: #ED10D0;
+}
+	
+div.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+div.bg .txt{
+	width: 400px;
+	height: 600px;
+	margin: auto;
+	text-align: center;
+}
+div.bg .txt h1{
+	font-size: 4em;
+}
+
+div.bg .social_list{
+	list-style: none;
+	font-size: 2em;
+}
+div.bg .social_list li{
+	display:inline;
+	padding: 10px;
+}
